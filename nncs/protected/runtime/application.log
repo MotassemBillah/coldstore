@@ -1,0 +1,116 @@
+2017/10/03 09:33:38 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1507016018
+2017/10/03 09:33:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiCache. The SQL statement executed was: DELETE FROM YiiCache WHERE expire>0 AND expire<1507016018.
+2017/10/03 14:29:48 [warning] [application] Failed to set unsafe attribute "father_name" of "Customer".
+2017/10/03 14:29:48 [warning] [application] Failed to set unsafe attribute "village" of "Customer".
+2017/10/03 14:29:48 [warning] [application] Failed to set unsafe attribute "thana" of "Customer".
+2017/10/03 14:29:48 [warning] [application] Failed to set unsafe attribute "district" of "Customer".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "father_name" of "Customer".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "village" of "Customer".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "thana" of "Customer".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "district" of "Customer".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "create_date" of "ProductIn".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "type" of "ProductIn".
+2017/10/03 14:29:53 [warning] [application] Failed to set unsafe attribute "carrying_cost" of "ProductIn".
+2017/10/11 16:07:01 [error] [php] A non-numeric value encountered (G:\xampp\htdocs\yii\coldstore\nncs\protected\controllers\DeliveryController.php:1128)
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 G:\xampp\htdocs\yii\framework\web\CController.php(286): DeliveryController->runAction()
+#2 G:\xampp\htdocs\yii\framework\web\CController.php(265): DeliveryController->runActionWithFilters()
+#3 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): DeliveryController->run()
+#4 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CWebApplication->run()
+REQUEST_URI=/nncs/delivery/save_single
+2017/12/05 15:40:42 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\xampp\htdocs\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1489): CActiveRecord->getTableAlias(true)
+#7 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(82): CActiveRecord->findByPk(1)
+#8 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(37): AppController->getSettings()
+#9 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): AppController->init()
+#10 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CApplication->run()
+#13 {main}
+REQUEST_URI=/nncs/
+HTTP_REFERER=http://coldstore.com/
+---
+2018/01/11 09:12:56 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\xampp\htdocs\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1489): CActiveRecord->getTableAlias(true)
+#7 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(82): CActiveRecord->findByPk(1)
+#8 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(37): AppController->getSettings()
+#9 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): AppController->init()
+#10 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CApplication->run()
+#13 {main}
+REQUEST_URI=/nncs/
+HTTP_REFERER=http://localhost/yii/coldstore/
+---
+2018/01/11 09:13:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in G:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 G:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 G:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 G:\xampp\htdocs\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 G:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1489): CActiveRecord->getTableAlias(true)
+#7 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(82): CActiveRecord->findByPk(1)
+#8 G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppController.php(37): AppController->getSettings()
+#9 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): AppController->init()
+#10 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CApplication->run()
+#13 {main}
+REQUEST_URI=/nncs/
+---
+2018/01/13 16:37:45 [error] [php] A non-numeric value encountered (G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppObject.php:854)
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 G:\xampp\htdocs\yii\framework\web\CController.php(286): MiscController->runAction()
+#2 G:\xampp\htdocs\yii\framework\web\CController.php(265): MiscController->runActionWithFilters()
+#3 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): MiscController->run()
+#4 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CWebApplication->run()
+REQUEST_URI=/nncs/ajax/misc/find_srloan_info
+2018/01/13 16:38:17 [error] [php] A non-numeric value encountered (G:\xampp\htdocs\yii\coldstore\nncs\protected\components\AppObject.php:854)
+Stack trace:
+#0 G:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 G:\xampp\htdocs\yii\framework\web\CController.php(286): MiscController->runAction()
+#2 G:\xampp\htdocs\yii\framework\web\CController.php(265): MiscController->runActionWithFilters()
+#3 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): MiscController->run()
+#4 G:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 G:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 G:\xampp\htdocs\yii\coldstore\nncs\index.php(21): CWebApplication->run()
+REQUEST_URI=/nncs/ajax/misc/find_srloan_info
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "father_name" of "Customer".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "village" of "Customer".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "thana" of "Customer".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "district" of "Customer".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "create_date" of "ProductIn".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "type" of "ProductIn".
+2018/07/07 15:29:04 [warning] [application] Failed to set unsafe attribute "carrying_cost" of "ProductIn".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "father_name" of "Customer".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "village" of "Customer".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "thana" of "Customer".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "district" of "Customer".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "create_date" of "ProductIn".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "type" of "ProductIn".
+2018/07/07 15:29:26 [warning] [application] Failed to set unsafe attribute "carrying_cost" of "ProductIn".
